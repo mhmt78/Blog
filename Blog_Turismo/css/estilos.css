@@ -1,0 +1,56 @@
+html{
+	background-color: green;
+}
+
+body {
+	background-image: url(../images/hvca2.jpg);
+	background-attachment: fixed;
+	background-position: 0 150px;
+	background-repeat: no-repeat;
+}
+
+.logo {
+	width: 80%;
+}
+
+header p { 	
+	color: #ffffff;
+	font-family: Dancing Script; 
+	font-size: 2.8em;
+	text-shadow: 2px 2px #02010a;
+}
+
+section {
+	background-color:rgba(169,169,169,0.8);
+}
+
+div .comentarios .boton1 {
+	margin:15px 0 10px 0;
+}
+
+div .autor {
+	margin:5px;
+}
+
+.comentarios p {
+	margin: 5px;
+	text-align: justify;
+}
+
+.comentarios img {
+	margin: 15px 0 0 0;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 75% !important;
+  }
+  .boton {
+	width: 90% !important;  
+  }
+  form h5 {
+	font-size: 1.5em;
+  }
+}
+
+
